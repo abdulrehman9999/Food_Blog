@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body *{
+    font-family: "Montserrat" !important;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction:column;
+}
+.servo{
+    background-color:#27279c;
+    color:white;
+    border: 1px solid blue;
+    width: 300px;
+    height:60px;
+    border: none;
+    font-family: sans-serif;
+}
+
+.servo:hover{
+    background-color:rgb(92, 92, 241) ;
+}
+
+.alt{
+    text-decoration: none;
+    color: white;
+    width: 170px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+}
+.alt:hover{
+    background-color:rgb(92, 92, 241) ;
+    border-radius: 20px;
+}
+.href{
+background-color: #cbc6bd;
+height: 90px;
+margin-top: 30px;
+font-size: x-large;
+display: flex;
+justify-content: center;
+}
+.com{
+    color: white;
+    text-decoration: none;
+    
+}
+.com:hover{
+    background-color:rgb(92, 92, 241) ;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.div{
+    display:flow;
+    text-align: center;
+    background-color: #303f9fe8;
+    padding: 10px 10px 10px 10px;
+}
+
+.flow{
+    display: flex;
+    gap: 8px;
+    width: 1330px;
+
+}
+.img:hover{
+    border-radius: 20px;
+}
